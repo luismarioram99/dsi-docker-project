@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app:
+    image: "luismarioram99/nginx-test"
+    restart: always
+    ports:
+      - 8080:80
